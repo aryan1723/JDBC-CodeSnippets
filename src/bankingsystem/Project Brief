@@ -1,0 +1,38 @@
+1-Welcome Screen
+Welcome to Banking System
+(choose an option)
+    a-Create an Account
+    b-Show Balance
+    c-Deposit Money
+    d-Withdraw Money
+    e-Close Bank Account (DELETE)
+
+A- Creation of Account
+Name            varchar notnull
+
+B- Show Account
+input <- AccountNumber
+output -> Balance
+
+C- Deposit Money
+input <- Account Number, Ammount
+output -> Confirmation Message
+
+D- Withdraw Money
+input <- AccountNumber, Ammount
+output -> Confirmation Message
+
+E- Close Account
+input <- AccountNumber
+output -> Confirmation Message
+
+
+
+Bank Account :-
+Name    Account number  Bank balance
+Aryan   100             1500
+
+Activity:-
+Account number  Action  Amount
+100             Debit   300
+
